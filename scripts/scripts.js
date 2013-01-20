@@ -1,0 +1,14 @@
+$(document).ready(function(){
+  $("img").mouseenter(function(){
+    $(this).stop(true,false);
+    $(this).animate({
+      width:'40%'
+    });
+  });
+  $("img").mouseleave(function(){
+    $(this).stop(true,false);
+    $(this).animate({
+      width:'20%'
+    });
+  });
+});

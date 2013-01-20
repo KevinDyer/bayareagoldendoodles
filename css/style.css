@@ -1,0 +1,94 @@
+body {
+  margin: 0 auto;
+  width:960px;
+  background-color:#664022;
+}
+
+img {
+  width: 20%;
+  position: relative;
+}
+
+#header {
+  margin-top: 25px;
+  font-family: courier;
+  font-weight: bold;
+}
+
+#header-1 {
+  color: black;
+  font-size: 24px;
+}
+
+#header-2 {
+  color:yellow;
+  font-size: 48px;
+  font-style: oblique;
+}
+
+#content {
+  background-color: white;
+  color: black;
+  padding: 25px 10px;
+  border-radius: 25px;
+}
+
+#content-main {
+}
+
+.puppy {
+  position: relative;
+  padding:10px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.desc {
+}
+
+#rightbar {
+  background: #e5e5e5;
+  min-height: 500px;
+  width: 255px;
+  position: relative;
+  right: 10px;
+  top: 10px;
+  padding: 0 15px;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #BBB;
+  float: right;
+}
+
+/* Clear Floated Elements
+----------------------------------------------------------------------*/
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+.clearfix:before,
+.clearfix:after {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+.clearfix:after {
+    clear: both
+}
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+.clearfix {
+    zoom: 1
+}
