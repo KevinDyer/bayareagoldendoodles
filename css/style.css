@@ -14,13 +14,8 @@ img {
    font-weight: bold;
 }
 
-#header-1 {
-   color: black;
-   font-size: 24px;
-}
-
-#header-2 {
-   color:yellow;
+#header h1 {
+   color: yellow;
    font-size: 48px;
    font-style: oblique;
 }
@@ -44,6 +39,8 @@ img {
 }
 
 .name {
+   color: #3399ff;
+   font-style: italic;
    font-size: 24px;
    font-weight: bold;
 }
