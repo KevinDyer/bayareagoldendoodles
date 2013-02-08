@@ -7,7 +7,7 @@ $(document).ready(function(){
 	    .closest(".puppy")
 		  .css('z-index', '2')
 		  .end()
-        .animate({width:'50%'});
+        .animate({width:'70%'});
     })
     .mouseleave(function(){
       var $this = $(this);
